@@ -131,7 +131,7 @@ class DetailPage extends StatelessWidget {
                     Row(
                       children: const [
                         Padding(
-                          padding: EdgeInsets.all(10),
+                          padding: EdgeInsets.all(5),
                           child: Icon(
                             Icons.add_box_outlined,
                             size: 35,
@@ -139,9 +139,9 @@ class DetailPage extends StatelessWidget {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.all(10),
+                          padding: EdgeInsets.all(5),
                           child: Icon(
-                            Icons.send,
+                            Icons.share,
                             size: 35,
                             color: Colors.white,
                           ),
